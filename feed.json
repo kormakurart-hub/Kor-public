@@ -1,11 +1,22 @@
 {
   "match": "Brazil vs Morocco",
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
-  "status": "LIVE",
+  "status": "FULL-TIME",
   "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "88",
-  "updated": "2026-06-13T23:27:30Z",
+  "minute": "—",
+  "updated": "2026-06-13T23:31:30Z",
   "items": [
+    {
+      "id": "ft-recap",
+      "ts": "2026-06-13T23:31:20Z",
+      "emoji": "🏁",
+      "title": "FULL-TIME: Brazil 1-1 Morocco — a point on the board",
+      "text": "The Seleção open their World Cup with a hard-fought draw against the world's No.7. Saibari stung us early, Vini answered with an absolute screamer, and from there it was a proper scrap neither side could settle. Not the dream start — but no defeat to a serious side, and we keep Vini's golaço forever. On to the next. 💛💚",
+      "min": "FT",
+      "cat": "commentary",
+      "lang": "EN",
+      "src": "Gazeta / FIFA"
+    },
     {
       "id": "endrick-egito",
       "ts": "2026-06-13T23:09:10Z",
