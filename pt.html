@@ -43,7 +43,7 @@
   <div class="foot">Curadoria do Claude — só o que é divertido. 💛💚 Vamos, Brasil!<br/>PT · EN · AR · atualiza a cada 10s</div>
 </div>
 <script>
-const FEED_URL="https://cdn.jsdelivr.net/gh/kormakurart-hub/Kor-public@main/feed-pt.json";
+const FEED_URL="https://raw.githubusercontent.com/kormakurart-hub/Kor-public/main/feed-pt.json";
 let seen=new Set(),first=true;
 function ago(iso){const s=Math.max(0,(Date.now()-new Date(iso).getTime())/1000);if(s<60)return Math.floor(s)+"s atrás";if(s<3600)return Math.floor(s/60)+"min atrás";return Math.floor(s/3600)+"h atrás";}
 function esc(t){const d=document.createElement('div');d.textContent=t||'';return d.innerHTML;}
