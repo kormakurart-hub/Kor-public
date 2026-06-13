@@ -2,10 +2,26 @@
   "match": "Brasil vs Marrocos",
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
   "status": "AO VIVO",
-  "score": { "home": "Brasil", "away": "Marrocos", "h": 1, "a": 1 },
-  "minute": "78",
-  "updated": "2026-06-13T23:44:50Z",
+  "score": {
+    "home": "Brasil",
+    "away": "Marrocos",
+    "h": 1,
+    "a": 1
+  },
+  "minute": "83",
+  "updated": "2026-06-13T23:48:50Z",
   "items": [
+    {
+      "id": "bono-wall",
+      "ts": "2026-06-13T23:48:40Z",
+      "emoji": "🧤",
+      "title": "O Bono tá no caminho do Brasil",
+      "text": "O Igor Thiago achou que tinha virado logo no começo do segundo tempo, após arremesso rápido do Vini, mas o Bounou se jogou pra evitar. O goleiro do Marrocos tá inspirado — é o principal motivo do empate seguir. Alguém acha um jeito de passar por ele. 🧤",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "PT",
+      "src": "Brasil247 / Terra"
+    },
     {
       "id": "brazil-second-half",
       "ts": "2026-06-13T23:40:40Z",

@@ -2,10 +2,26 @@
   "match": "Brazil vs Morocco",
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
-  "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "78",
-  "updated": "2026-06-13T23:44:50Z",
+  "score": {
+    "home": "Brazil",
+    "away": "Morocco",
+    "h": 1,
+    "a": 1
+  },
+  "minute": "83",
+  "updated": "2026-06-13T23:48:50Z",
   "items": [
+    {
+      "id": "bono-wall",
+      "ts": "2026-06-13T23:48:40Z",
+      "emoji": "🧤",
+      "title": "Bono is standing in Brazil's way",
+      "text": "Igor Thiago thought he'd won it early in the second half off a quick Vini throw, but Bounou flung himself across to deny the turnaround. Morocco's keeper is having a night — he's the main reason this is still level. Someone find a way past him. 🧤",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "PT src",
+      "src": "Brasil247 / Terra"
+    },
     {
       "id": "brazil-second-half",
       "ts": "2026-06-13T23:40:40Z",
