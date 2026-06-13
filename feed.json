@@ -3,9 +3,31 @@
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
   "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "70",
-  "updated": "2026-06-13T23:36:50Z",
+  "minute": "75",
+  "updated": "2026-06-13T23:40:50Z",
   "items": [
+    {
+      "id": "brazil-second-half",
+      "ts": "2026-06-13T23:40:40Z",
+      "emoji": "⬆️",
+      "title": "Brazil come out swinging after the break",
+      "text": "Whatever Ancelotti said at the interval worked — the Seleção look sharper, pressing higher and the likelier side to nick a winner. Keep this tempo and the three points are right there. Just need that final ball. 💛💚",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "PT src",
+      "src": "Terra / A Bola"
+    },
+    {
+      "id": "morocco-anthem",
+      "ts": "2026-06-13T23:40:20Z",
+      "emoji": "🎵",
+      "title": "Morocco's TikTok anthem is everywhere: 'Bono! Hakimi! Diop!'",
+      "text": "Credit where it's due — Morocco's unofficial Cup anthem (chanting Bono, Hakimi, Issa Diop) has blown past a million views and 65k videos. Properly catchy. We'll let them have the song... we'll take the football. 😏",
+      "min": "—",
+      "cat": "funny",
+      "lang": "AR src",
+      "src": "Morocco World News"
+    },
     {
       "id": "subs-no-endrick",
       "ts": "2026-06-13T23:36:40Z",

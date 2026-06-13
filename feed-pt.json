@@ -3,9 +3,31 @@
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
   "status": "AO VIVO",
   "score": { "home": "Brasil", "away": "Marrocos", "h": 1, "a": 1 },
-  "minute": "70",
-  "updated": "2026-06-13T23:36:50Z",
+  "minute": "75",
+  "updated": "2026-06-13T23:40:50Z",
   "items": [
+    {
+      "id": "brazil-second-half",
+      "ts": "2026-06-13T23:40:40Z",
+      "emoji": "⬆️",
+      "title": "O Brasil volta com tudo no segundo tempo",
+      "text": "Seja lá o que o Ancelotti falou no intervalo, funcionou — a Seleção tá mais ligada, pressionando mais alto e mais perto de tirar a vitória. Mantém esse ritmo que os três pontos aparecem. Só falta a bola final. 💛💚",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "PT",
+      "src": "Terra / A Bola"
+    },
+    {
+      "id": "morocco-anthem",
+      "ts": "2026-06-13T23:40:20Z",
+      "emoji": "🎵",
+      "title": "O hino do Marrocos no TikTok tá em tudo: 'Bono! Hakimi! Diop!'",
+      "text": "Dando o crédito — o hino não-oficial do Marrocos (gritando Bono, Hakimi, Issa Diop) já passou de um milhão de views e 65 mil vídeos. Grudento demais. A música deixa com eles... o futebol fica com a gente. 😏",
+      "min": "—",
+      "cat": "funny",
+      "lang": "AR",
+      "src": "Morocco World News"
+    },
     {
       "id": "subs-no-endrick",
       "ts": "2026-06-13T23:36:40Z",
