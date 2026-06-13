@@ -8,9 +8,20 @@
     "h": 1,
     "a": 1
   },
-  "minute": "88",
-  "updated": "2026-06-13T23:52:50Z",
+  "minute": "90+3",
+  "updated": "2026-06-13T23:56:50Z",
   "items": [
+    {
+      "id": "vini-ronaldinho",
+      "ts": "2026-06-13T23:56:40Z",
+      "emoji": "🐐",
+      "title": "O gol coloca o Vini ao lado do Ronaldinho",
+      "text": "Aquele empate não foi só bonito — com ele, o Vini Jr passou a ter gols em duas Copas diferentes, igualando uma marca do Ronaldinho Gaúcho com a Amarelinha. Jogador de momento grande fazendo coisa de momento grande. 💛💚",
+      "min": "32'",
+      "cat": "bias",
+      "lang": "PT",
+      "src": "Brasil247"
+    },
     {
       "id": "bono-wall",
       "ts": "2026-06-13T23:48:40Z",

@@ -8,9 +8,20 @@
     "h": 1,
     "a": 1
   },
-  "minute": "88",
-  "updated": "2026-06-13T23:52:50Z",
+  "minute": "90+3",
+  "updated": "2026-06-13T23:56:50Z",
   "items": [
+    {
+      "id": "vini-ronaldinho",
+      "ts": "2026-06-13T23:56:40Z",
+      "emoji": "🐐",
+      "title": "Vini's goal puts him in Ronaldinho company",
+      "text": "That equaliser wasn't just pretty — it means Vini Jr has now scored at two different World Cups, matching a mark held by Ronaldinho Gaúcho in the famous yellow shirt. Big-stage player doing big-stage things. 💛💚",
+      "min": "32'",
+      "cat": "bias",
+      "lang": "PT src",
+      "src": "Brasil247"
+    },
     {
       "id": "bono-wall",
       "ts": "2026-06-13T23:48:40Z",
