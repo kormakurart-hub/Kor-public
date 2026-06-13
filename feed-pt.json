@@ -3,9 +3,20 @@
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
   "status": "AO VIVO",
   "score": { "home": "Brasil", "away": "Marrocos", "h": 1, "a": 1 },
-  "minute": "63",
-  "updated": "2026-06-13T23:05:30Z",
+  "minute": "68",
+  "updated": "2026-06-13T23:09:30Z",
   "items": [
+    {
+      "id": "endrick-egito",
+      "ts": "2026-06-13T23:09:10Z",
+      "emoji": "⚡",
+      "title": "Por que tanto pedido por Endrick? Ele decidiu o último amistoso",
+      "text": "O coro 'VEM, ENDRICK' não é à toa — no último teste antes da Copa, dia 6, o moleque entrou e marcou pra bater o Egito. Com o jogo travado em 1-1, o Brasil inteiro quer essa mágica de novo agora. Carlo, o banco tá chamando. ⚡",
+      "min": "—",
+      "cat": "bias",
+      "lang": "PT",
+      "src": "Band / CNN BR"
+    },
     {
       "id": "stats-scrap",
       "ts": "2026-06-13T23:01:10Z",

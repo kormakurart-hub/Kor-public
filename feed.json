@@ -3,9 +3,20 @@
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
   "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "63",
-  "updated": "2026-06-13T23:05:30Z",
+  "minute": "68",
+  "updated": "2026-06-13T23:09:30Z",
   "items": [
+    {
+      "id": "endrick-egito",
+      "ts": "2026-06-13T23:09:10Z",
+      "emoji": "⚡",
+      "title": "Why the Endrick clamor? He won the last warm-up",
+      "text": "The 'VEM, ENDRICK' chorus isn't random — in Brazil's final pre-Cup test on June 6, the kid came off the bench and scored to beat Egypt. With it stuck at 1-1, the whole country wants that same super-sub magic right now. Carlo, the bench is calling. ⚡",
+      "min": "—",
+      "cat": "bias",
+      "lang": "PT src",
+      "src": "Band / CNN BR"
+    },
     {
       "id": "stats-scrap",
       "ts": "2026-06-13T23:01:10Z",
