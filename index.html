@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#06200f" />
-<title>Brasil ao vivo — Cor & Fofoca</title>
+<title>Brazil Live — Colour & Gossip</title>
 <style>
   :root{--bg:#06200f;--card:#0c2e16;--card2:#103a1d;--line:#1c4a2a;--txt:#eafff0;--dim:#9fd4ad;--accent:#ffd24a;--br:#2ec26a}
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -36,31 +36,31 @@
 <body>
 <div class="wrap">
   <header>
-    <div class="score"><span class="team br" id="teamH">Brasil</span><span class="sc" id="sc">–</span><span class="team opp" id="teamA">Marrocos</span></div>
-    <div class="meta"><span class="pill"><span class="dot"></span><span id="status">AO VIVO</span></span> <span id="minute"></span><br/><span id="comp"></span><br/><span id="ago">atualizando…</span></div>
+    <div class="score"><span class="team br" id="teamH">Brazil</span><span class="sc" id="sc">–</span><span class="team opp" id="teamA">Morocco</span></div>
+    <div class="meta"><span class="pill"><span class="dot"></span><span id="status">LIVE</span></span> <span id="minute"></span><br/><span id="comp"></span><br/><span id="ago">updating…</span></div>
   </header>
-  <div id="feed"><div class="empty">Carregando a fofoca…</div></div>
-  <div class="foot">Curadoria do Claude — só o que é divertido. 💛💚 Vamos, Brasil!<br/>PT · EN · AR · atualiza a cada 30s</div>
+  <div id="feed"><div class="empty">Loading the gossip…</div></div>
+  <div class="foot">Curated by Claude — only the fun stuff. 💛💚 Vai, Brazil!<br/>PT · EN · AR sources · refreshes every 30s</div>
 </div>
 <script>
 const FEED_URL="https://raw.githubusercontent.com/kormakurart-hub/Kor-public/main/feed.json";
 let seen=new Set(),first=true;
-function ago(iso){const s=Math.max(0,(Date.now()-new Date(iso).getTime())/1000);if(s<60)return Math.floor(s)+"s atrás";if(s<3600)return Math.floor(s/60)+"min atrás";return Math.floor(s/3600)+"h atrás";}
+function ago(iso){const s=Math.max(0,(Date.now()-new Date(iso).getTime())/1000);if(s<60)return Math.floor(s)+"s ago";if(s<3600)return Math.floor(s/60)+"min ago";return Math.floor(s/3600)+"h ago";}
 function esc(t){const d=document.createElement('div');d.textContent=t||'';return d.innerHTML;}
 async function load(){try{
  const r=await fetch(FEED_URL+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;const d=await r.json();
- document.getElementById('teamH').textContent=d.score?.home||"Brasil";
- document.getElementById('teamA').textContent=d.score?.away||"Marrocos";
+ document.getElementById('teamH').textContent=d.score?.home||"Brazil";
+ document.getElementById('teamA').textContent=d.score?.away||"Morocco";
  const h=d.score?.h,a=d.score?.a;document.getElementById('sc').textContent=(h==null||a==null)?"–":(h+" : "+a);
- document.getElementById('status').textContent=d.status||"AO VIVO";
+ document.getElementById('status').textContent=d.status||"LIVE";
  document.getElementById('minute').textContent=(d.minute&&d.minute!=="—")?d.minute+"'":"";
  document.getElementById('comp').textContent=d.competition||"";
  if(d.updated){const m=(Date.now()-new Date(d.updated).getTime())/60000;const e=document.getElementById('ago');e.textContent="feed "+ago(d.updated);e.className=m>20?"stale":"";}
  const items=(d.items||[]).slice().sort((x,y)=>new Date(y.ts)-new Date(x.ts));const feed=document.getElementById('feed');
- if(!items.length){feed.innerHTML='<div class="empty">Sem fofoca ainda — já já tem.</div>';return;}
+ if(!items.length){feed.innerHTML='<div class="empty">No gossip yet — coming soon.</div>';return;}
  feed.innerHTML=items.map(it=>{const isNew=!first&&!seen.has(it.id);const cat=it.cat||'vibe';return `<div class="card ${isNew?'new':''}"><div class="top"><span class="emoji">${esc(it.emoji||'⚽')}</span><span class="ttl">${esc(it.title)}</span></div><div class="body">${esc(it.text)}</div><div class="tags"><span class="tag min">${esc(it.min||'')}</span><span class="tag cat-${esc(cat)}">${esc(cat)}</span><span class="tag">${esc(it.lang||'')}</span><span class="src">${esc(it.src||'')} · ${ago(it.ts)}</span></div></div>`;}).join('');
  items.forEach(it=>seen.add(it.id));first=false;
-}catch(e){const el=document.getElementById('ago');el.textContent="reconectando…";el.className="stale";}}
+}catch(e){const el=document.getElementById('ago');el.textContent="reconnecting…";el.className="stale";}}
 load();setInterval(load,30000);
 </script>
 </body>
