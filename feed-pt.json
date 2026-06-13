@@ -3,9 +3,20 @@
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
   "status": "AO VIVO",
   "score": { "home": "Brasil", "away": "Marrocos", "h": 1, "a": 1 },
-  "minute": "54",
-  "updated": "2026-06-13T22:57:30Z",
+  "minute": "58",
+  "updated": "2026-06-13T23:01:30Z",
   "items": [
+    {
+      "id": "stats-scrap",
+      "ts": "2026-06-13T23:01:10Z",
+      "emoji": "📊",
+      "title": "Os números: uma briga de gigantes",
+      "text": "O xG mostra briga de igual pra igual com veneno: o Marrocos levando a melhor nas chances claras (1.22 a 0.85) enquanto o Brasil fica com a bola (54%). E olho no Casemiro — amarelado aos 37', tá andando no fio da navalha no meio. Tenso, mas com orgulho: a Seleção encarando de igual o 7º do mundo. 💪",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "PT",
+      "src": "FOX / B-R"
+    },
     {
       "id": "neymar-tweet",
       "ts": "2026-06-13T22:57:10Z",

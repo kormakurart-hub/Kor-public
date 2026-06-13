@@ -3,9 +3,20 @@
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
   "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "54",
-  "updated": "2026-06-13T22:57:30Z",
+  "minute": "58",
+  "updated": "2026-06-13T23:01:30Z",
   "items": [
+    {
+      "id": "stats-scrap",
+      "ts": "2026-06-13T23:01:10Z",
+      "emoji": "📊",
+      "title": "The numbers: a genuine heavyweight scrap",
+      "text": "The xG says it's even-stevens with bite: Morocco edging the big chances (1.22 to 0.85) while Brazil keep the ball (54%). And keep an eye on Casemiro — booked on 37', he's now walking a yellow-card tightrope in midfield. Tense, but proud: the Seleção standing toe-to-toe with the world's No.7. 💪",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "EN",
+      "src": "FOX / B-R"
+    },
     {
       "id": "neymar-tweet",
       "ts": "2026-06-13T22:57:10Z",
