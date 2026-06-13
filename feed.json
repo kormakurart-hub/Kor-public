@@ -3,9 +3,20 @@
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
   "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "66",
-  "updated": "2026-06-13T23:32:30Z",
+  "minute": "70",
+  "updated": "2026-06-13T23:36:50Z",
   "items": [
+    {
+      "id": "subs-no-endrick",
+      "ts": "2026-06-13T23:36:40Z",
+      "emoji": "🔥",
+      "title": "Carlo warms up Endrick... then sends on someone else",
+      "text": "The whole bench was screaming for Endrick — Ancelotti even had him warming up — but on came Luiz Henrique (for Igor Thiago) and Matheus Cunha (for Paquetá) instead. Brazilian Twitter is in flames. The kid's moment will have to wait. For now. 😤",
+      "min": "—",
+      "cat": "bias",
+      "lang": "PT src",
+      "src": "Soccerway / Terra"
+    },
     {
       "id": "endrick-egito",
       "ts": "2026-06-13T23:09:10Z",

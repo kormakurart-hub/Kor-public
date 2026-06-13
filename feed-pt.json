@@ -3,9 +3,20 @@
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
   "status": "AO VIVO",
   "score": { "home": "Brasil", "away": "Marrocos", "h": 1, "a": 1 },
-  "minute": "66",
-  "updated": "2026-06-13T23:32:30Z",
+  "minute": "70",
+  "updated": "2026-06-13T23:36:50Z",
   "items": [
+    {
+      "id": "subs-no-endrick",
+      "ts": "2026-06-13T23:36:40Z",
+      "emoji": "🔥",
+      "title": "Carlo aquece o Endrick... e bota outro",
+      "text": "O banco inteiro gritava por Endrick — o Ancelotti até botou ele pra aquecer — mas quem entrou foi o Luiz Henrique (no lugar do Igor Thiago) e o Matheus Cunha (no lugar do Paquetá). O Twitter brasileiro pegou fogo. A vez do moleque vai ter que esperar. Por enquanto. 😤",
+      "min": "—",
+      "cat": "bias",
+      "lang": "PT",
+      "src": "Soccerway / Terra"
+    },
     {
       "id": "endrick-egito",
       "ts": "2026-06-13T23:09:10Z",
