@@ -3,9 +3,53 @@
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
   "score": { "home": "Brazil", "away": "Morocco", "h": 0, "a": 1 },
-  "minute": "26",
-  "updated": "2026-06-13T22:34:30Z",
+  "minute": "42",
+  "updated": "2026-06-13T22:38:40Z",
   "items": [
+    {
+      "id": "endrick-please",
+      "ts": "2026-06-13T22:38:00Z",
+      "emoji": "🙏",
+      "title": "The whole timeline is screaming: VEM, ENDRICK!",
+      "text": "Brazil a goal down and the internet has already made up its mind — get the kid off the bench. Every Brazilian group chat right now is one message: bring on Endrick and let him rescue the opener. Carlo, are you reading this? 👀",
+      "min": "42'",
+      "cat": "bias",
+      "lang": "PT src",
+      "src": "Bolavip BR"
+    },
+    {
+      "id": "ancelotti-irony",
+      "ts": "2026-06-13T22:36:00Z",
+      "emoji": "🤌",
+      "title": "Ancelotti's pre-match quote is aging like milk",
+      "text": "\"The World Cup is won by whoever concedes the least, not whoever scores the most,\" said Carlo... and then Brazil shipped one on 19'. The pundits are already replaying the clip. Relax — the man has won everything. He knows what he's doing. Probably. 😅",
+      "min": "—",
+      "cat": "commentary",
+      "lang": "EN",
+      "src": "Gulf News / ESPN"
+    },
+    {
+      "id": "convocadas-raphinha",
+      "ts": "2026-06-13T22:34:00Z",
+      "emoji": "💍",
+      "title": "WAG drama: Raphinha accused of being 'cold' on camera",
+      "text": "The doc 'Convocadas' (about the Seleção's wives & girlfriends) has Brazil hooked. Fans piled on Raphinha for seeming cold to wife Natália Belloni — she fired straight back: \"I'm treated like a princess.\" Mid-World Cup soap, exactly as ordered. 🍿",
+      "min": "—",
+      "cat": "fofoca",
+      "lang": "PT src",
+      "src": "Purepeople / Metrópoles"
+    },
+    {
+      "id": "morocco-serie-a",
+      "ts": "2026-06-13T22:32:00Z",
+      "emoji": "♟️",
+      "title": "Morocco's secret weapon: Ancelotti knows them too well",
+      "text": "Half of Morocco's engine room is Serie A-flavoured (Saibari, El Aynaoui) — ironic against an Italian-coached Brazil. Surprise call: El Khannouss got the left flank ahead of Hakimi as winger, with Achraf bombing on from full-back. Crafty. Annoyingly crafty. 😤",
+      "min": "—",
+      "cat": "tactical",
+      "lang": "EN",
+      "src": "Yahoo Sports"
+    },
     {
       "id": "saibari-19",
       "ts": "2026-06-13T22:25:00Z",
@@ -41,7 +85,7 @@
     },
     {
       "id": "metlife-assobio",
-      "ts": "2026-06-13T22:30:00Z",
+      "ts": "2026-06-13T22:05:00Z",
       "emoji": "📣",
       "title": "Why is the crowd whistling at the MetLife?",
       "text": "That loud hiss filling the stadium is the Moroccan support whistling every Brazil touch to put them off. Charming folklore — but the only noise that'll matter is the roar when the equaliser drops. 😏",
