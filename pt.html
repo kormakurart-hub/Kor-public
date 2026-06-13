@@ -40,10 +40,10 @@
     <div class="meta"><span class="pill"><span class="dot"></span><span id="status">AO VIVO</span></span> <span id="minute"></span><br/><span id="comp"></span><br/><span id="ago">atualizando…</span></div>
   </header>
   <div id="feed"><div class="empty">Carregando a fofoca…</div></div>
-  <div class="foot">Curadoria do Claude — só o que é divertido. 💛💚 Vamos, Brasil!<br/>PT · EN · AR · atualiza a cada 12s</div>
+  <div class="foot">Curadoria do Claude — só o que é divertido. 💛💚 Vamos, Brasil!<br/>PT · EN · AR · atualiza a cada 10s</div>
 </div>
 <script>
-const FEED_URL="https://raw.githubusercontent.com/kormakurart-hub/Kor-public/main/feed-pt.json";
+const FEED_URL="https://cdn.jsdelivr.net/gh/kormakurart-hub/Kor-public@main/feed-pt.json";
 let seen=new Set(),first=true;
 function ago(iso){const s=Math.max(0,(Date.now()-new Date(iso).getTime())/1000);if(s<60)return Math.floor(s)+"s atrás";if(s<3600)return Math.floor(s/60)+"min atrás";return Math.floor(s/3600)+"h atrás";}
 function esc(t){const d=document.createElement('div');d.textContent=t||'';return d.innerHTML;}
@@ -61,7 +61,7 @@ async function load(){try{
  feed.innerHTML=items.map(it=>{const isNew=!first&&!seen.has(it.id);const cat=it.cat||'vibe';return `<div class="card ${isNew?'new':''}"><div class="top"><span class="emoji">${esc(it.emoji||'⚽')}</span><span class="ttl">${esc(it.title)}</span></div><div class="body">${esc(it.text)}</div><div class="tags"><span class="tag min">${esc(it.min||'')}</span><span class="tag cat-${esc(cat)}">${esc(cat)}</span><span class="tag">${esc(it.lang||'')}</span><span class="src">${esc(it.src||'')} · ${ago(it.ts)}</span></div></div>`;}).join('');
  items.forEach(it=>seen.add(it.id));first=false;
 }catch(e){const el=document.getElementById('ago');el.textContent="reconectando…";el.className="stale";}}
-load();setInterval(load,12000);
+load();setInterval(load,10000);
 </script>
 </body>
 </html>
