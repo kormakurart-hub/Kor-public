@@ -3,9 +3,20 @@
   "competition": "FIFA World Cup 2026 · Group C · MetLife Stadium",
   "status": "LIVE",
   "score": { "home": "Brazil", "away": "Morocco", "h": 1, "a": 1 },
-  "minute": "50",
-  "updated": "2026-06-13T22:54:10Z",
+  "minute": "54",
+  "updated": "2026-06-13T22:57:30Z",
   "items": [
+    {
+      "id": "neymar-tweet",
+      "ts": "2026-06-13T22:57:10Z",
+      "emoji": "👑",
+      "title": "Neymar breaks the internet from the sidelines",
+      "text": "He's not in the squad, but the king still owns the timeline — Neymar's emotional pre-match post ('thank you for letting me live once again') went viral, on top of that teary squad-day call with bestie Raphinha. Watching this one hurt from afar. We miss you, Ney. 👑",
+      "min": "—",
+      "cat": "fofoca",
+      "lang": "EN",
+      "src": "Sunday Guardian / Fox"
+    },
     {
       "id": "chant-war",
       "ts": "2026-06-13T22:53:10Z",

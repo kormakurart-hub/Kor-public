@@ -3,9 +3,20 @@
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
   "status": "AO VIVO",
   "score": { "home": "Brasil", "away": "Marrocos", "h": 1, "a": 1 },
-  "minute": "50",
-  "updated": "2026-06-13T22:54:10Z",
+  "minute": "54",
+  "updated": "2026-06-13T22:57:30Z",
   "items": [
+    {
+      "id": "neymar-tweet",
+      "ts": "2026-06-13T22:57:10Z",
+      "emoji": "👑",
+      "title": "Neymar quebra a internet lá da arquibancada",
+      "text": "Ele não está na lista, mas o rei ainda manda na timeline — o post emocionado do Neymar antes do jogo ('obrigado por me deixar viver de novo') viralizou, além daquela ligação chorosa no dia da convocação com o parça Raphinha. Doeu ver essa de longe. Saudade, Ney. 👑",
+      "min": "—",
+      "cat": "fofoca",
+      "lang": "PT",
+      "src": "Sunday Guardian / Fox"
+    },
     {
       "id": "chant-war",
       "ts": "2026-06-13T22:53:10Z",
