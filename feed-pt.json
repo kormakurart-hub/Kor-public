@@ -1,16 +1,27 @@
 {
   "match": "Brasil vs Marrocos",
   "competition": "Copa do Mundo 2026 · Grupo C · MetLife Stadium",
-  "status": "AO VIVO",
+  "status": "ENCERRADO",
   "score": {
     "home": "Brasil",
     "away": "Marrocos",
     "h": 1,
     "a": 1
   },
-  "minute": "90+5",
-  "updated": "2026-06-14T00:00:50Z",
+  "minute": "—",
+  "updated": "2026-06-14T00:04:30Z",
   "items": [
+    {
+      "id": "ft-recap",
+      "ts": "2026-06-14T00:04:20Z",
+      "emoji": "🏁",
+      "title": "FIM DE JOGO: Brasil 1-1 Marrocos — ponto na estreia",
+      "text": "A Seleção estreia na Copa com um empate suado contra o 7º do mundo. O Saibari picou cedo, o Vini respondeu com um golaço sem ângulo, e dali o Bono e um Marrocos aguerrido seguraram o empate. Não foi a estreia dos sonhos — mas não perdemos pra um time forte, e fica o golaço do Vini pra história. Bola pra frente. 💛💚",
+      "min": "FT",
+      "cat": "commentary",
+      "lang": "PT",
+      "src": "Gazeta / FIFA"
+    },
     {
       "id": "vini-ronaldinho",
       "ts": "2026-06-13T23:56:40Z",
